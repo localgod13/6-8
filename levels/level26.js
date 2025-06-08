@@ -25,7 +25,13 @@ export function runLevel26(game) {
     // Play town day music
     if (game.soundManager) {
         game.soundManager.stopMusic(false); // Stop any existing music
-        game.soundManager.playMusic('townday', true); // Play townday.mp3 with loop
+        const towndayMusic = game.soundManager.sounds.get('townday');
+        if (towndayMusic) {
+            towndayMusic.loop = true;
+            towndayMusic.volume = 0.5;
+            towndayMusic.play().catch(() => {});
+            game.soundManager.currentMusic = towndayMusic;
+        }
     }
 
     // Create player-side element if it doesn't exist
