@@ -31,14 +31,8 @@ export function runLevel22(game) {
     // Remove all existing title texts
     document.querySelectorAll('.mountain-pass-title').forEach(el => el.remove());
 
-    // Set the background image
-    const playfield = document.querySelector('.playfield');
-    if (playfield) {
-        playfield.style.backgroundImage = 'url("./assets/Images/level22.png")';
-        playfield.style.backgroundSize = 'cover';
-        playfield.style.backgroundPosition = 'center';
-        playfield.style.backgroundRepeat = 'no-repeat';
-    }
+    // Let the level manager handle the background
+    game.levelManager.setBackground(22);
 
     // Create player character with entrance animation
     const playerSide = document.querySelector('.player-side');
