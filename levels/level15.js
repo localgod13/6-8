@@ -126,7 +126,7 @@ export function runLevel15(game) {
         innDoor.addEventListener('mouseenter', () => {
             innDoor.style.background = 'rgba(80, 255, 180, 0.35)';
             innDoor.style.borderColor = '#fff';
-            innDoor.style.cursor = 'url("/assets/Images/doorcursor.png") 24 24, pointer';
+            innDoor.style.cursor = 'url("./assets/Images/doorcursor.png") 24 24, pointer';
         });
         innDoor.addEventListener('mouseleave', () => {
             innDoor.style.background = 'rgba(80, 200, 255, 0.25)';
@@ -166,7 +166,7 @@ export function runLevel15(game) {
         backBox.addEventListener('mouseenter', () => {
             backBox.style.background = 'rgba(80, 255, 180, 0.35)';
             backBox.style.borderColor = '#fff';
-            backBox.style.cursor = 'url("/assets/Images/mageboots48.png") 24 40, pointer';
+            backBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
         });
         backBox.addEventListener('mouseleave', () => {
             backBox.style.background = 'rgba(80, 200, 255, 0.25)';
