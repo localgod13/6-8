@@ -84,7 +84,6 @@ export class Preloader {
                 './assets/Images/firebg.png',
                 './assets/Images/tscreen.png',
                 './assets/Images/leavingtown.png',
-                './assets/Images/mageboots48.png',
                 './assets/Images/doorcursor.png',
                 './assets/Images/level23.png',
                 './assets/Images/level22.png'
