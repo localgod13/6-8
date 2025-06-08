@@ -34,7 +34,7 @@ export function runLevel22(game) {
     // Set the background image
     const playfield = document.querySelector('.playfield');
     if (playfield) {
-        playfield.style.backgroundImage = 'url("/assets/Images/level22.png")';
+        playfield.style.backgroundImage = 'url("./assets/Images/level22.png")';
         playfield.style.backgroundSize = 'cover';
         playfield.style.backgroundPosition = 'center';
         playfield.style.backgroundRepeat = 'no-repeat';
