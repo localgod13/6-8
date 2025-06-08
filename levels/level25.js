@@ -266,7 +266,6 @@ export function runLevel25(game) {
 
     // Set up the level background and music
     game.levelManager.setBackground(25);
-    game.levelManager.setMusicAndNarration(25);
 
     // Add Garrick tied up as part of the background
     const garrickElement = document.createElement('div');
