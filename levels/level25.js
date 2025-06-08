@@ -157,16 +157,6 @@ export function runLevel25(game) {
     isThirdWaveSpawned = false;
     isGoblinKingSpawned = false;
 
-    // Stop any existing music and play town day music
-    game.soundManager.stopMusic(false);
-    const townDayMusic = game.soundManager.sounds.get('townday');
-    if (townDayMusic) {
-        townDayMusic.loop = true;
-        townDayMusic.volume = 0.5;
-        townDayMusic.play().catch(() => {});
-        game.soundManager.currentMusic = townDayMusic;
-    }
-
     // Create player-side element if it doesn't exist
     let playerSide = document.querySelector('.player-side');
     if (!playerSide) {
