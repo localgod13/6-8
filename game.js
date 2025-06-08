@@ -2692,7 +2692,7 @@ export class Game {
             rect4.style.background = 'rgba(80, 255, 180, 0.35)';
             rect4.style.borderColor = '#fff';
             // Use mageboots48.png as the cursor
-            rect4.style.cursor = 'url("/assets/Images/mageboots48.png") 24 40, pointer';
+            rect4.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
         });
         rect4.addEventListener('mouseleave', () => {
             rect4.style.background = 'rgba(80, 200, 255, 0.25)';

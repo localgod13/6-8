@@ -184,7 +184,7 @@ export function runLevel16(game) {
         backToInnBox.addEventListener('mouseenter', () => {
             backToInnBox.style.background = 'rgba(80, 255, 180, 0.35)';
             backToInnBox.style.borderColor = '#fff';
-            backToInnBox.style.cursor = 'url("/assets/Images/mageboots48.png") 24 40, pointer';
+            backToInnBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
         });
         backToInnBox.addEventListener('mouseleave', () => {
             backToInnBox.style.background = 'rgba(80, 200, 255, 0.25)';

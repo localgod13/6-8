@@ -60,7 +60,7 @@ export function runLevel20(game) {
     mountainPassBox.style.background = 'rgba(80, 200, 255, 0.25)';
     mountainPassBox.style.border = '2px solid #39ff14';
     mountainPassBox.style.borderRadius = '12px';
-    mountainPassBox.style.cursor = 'pointer';
+    mountainPassBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
     mountainPassBox.style.zIndex = '3000';
     mountainPassBox.title = 'Mountain Pass';
     mountainPassBox.style.display = 'flex';
@@ -79,7 +79,7 @@ export function runLevel20(game) {
     mountainPassBox.addEventListener('mouseenter', () => {
         mountainPassBox.style.background = 'rgba(80, 255, 180, 0.35)';
         mountainPassBox.style.borderColor = '#fff';
-        mountainPassBox.style.cursor = 'url("/assets/Images/mageboots48.png") 24 40, pointer';
+        mountainPassBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
     });
 
     mountainPassBox.addEventListener('mouseleave', () => {
@@ -114,7 +114,7 @@ export function runLevel20(game) {
     emberVaultBox.style.background = 'rgba(80, 200, 255, 0.25)';
     emberVaultBox.style.border = '2px solid #39ff14';
     emberVaultBox.style.borderRadius = '12px';
-    emberVaultBox.style.cursor = 'pointer';
+    emberVaultBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
     emberVaultBox.style.zIndex = '3000';
     emberVaultBox.title = 'Ember Vault';
     emberVaultBox.style.display = 'flex';
@@ -133,7 +133,7 @@ export function runLevel20(game) {
     emberVaultBox.addEventListener('mouseenter', () => {
         emberVaultBox.style.background = 'rgba(80, 255, 180, 0.35)';
         emberVaultBox.style.borderColor = '#fff';
-        emberVaultBox.style.cursor = 'url("/assets/Images/mageboots48.png") 24 40, pointer';
+        emberVaultBox.style.cursor = 'url("./assets/Images/mageboots48.png") 24 40, pointer';
     });
 
     emberVaultBox.addEventListener('mouseleave', () => {
